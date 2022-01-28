@@ -1,0 +1,128 @@
+/* google font cdn */
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poiret+One&family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poiret+One&family=Poppins:ital@0;1&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+.banner-MainPart{
+    height: fit-content;
+    padding:50px 0px
+}
+.banner-image{
+    
+        box-shadow: 0px 0px 24px #153b5b;
+        border-radius: 50%;
+        background: #0b0d1e;
+    
+}
+
+span.specialDish {
+    color: #0aa60a;
+    font-family: 'Moo Lah Lah', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+h2.friedChicken.mt-1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: 'Moo Lah Lah', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #121146;
+}
+/* bottom */
+a.orderBannerFoods {
+    background: #121146;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition:all 0.5s;
+}
+a.orderBannerFoods:hover{
+    background:#050413;
+    border-radius: 5px;
+     box-shadow: 0px 3px 0px 5px #121146;
+   
+}
+p.fooddes {
+    font-size: 17px;
+    font-weight: 600;
+    color: #4d4c50;
+    font-family: 'Poppins', sans-serif;
+
+  
+}
+.socialIcons{
+    list-style:none
+}
+
+/* image roted animation */
+.banner-image{
+     animation: spin 12s linear infinite;
+}
+@keyframes spin{
+    100%{transform: rotate(360deg);}
+}
+
+ul.socialIcons.mt-2.d-flex.m-1 li {padding-left: 20px;}
+/* icons */
+i.fab.fa-facebook {
+    font-size: 22px;
+    transition: transform .2s;
+}
+i.fab.fa-facebook:hover {
+    font-size: 22px;
+    transform: scale(1.5);
+    
+}
+.searChBarBanner {
+    margin-left: 10%;
+}
+.gmailId{
+    font-size: 22px;
+    cursor:pointer;
+    transition: transform .2s;
+}
+.gmailId:hover{
+    font-size: 22px;
+    transform: scale(1.5);
+}
+
+i.fab.fa-instagram {
+    font-size: 22px;
+    color: tomato;
+    transition: transform .2s;
+
+}
+i.fab.fa-instagram:hover{
+    transform: scale(1.5);
+    color: rgb(231, 75, 47);
+}
+
+i.fab.fa-linkedin{
+    transition: transform .2s;
+    font-size: 22px;
+    color: rgb(46, 90, 185);
+   
+}
+i.fab.fa-linkedin:hover{
+    transform: scale(1.5);
+    color: rgb(35, 70, 145);
+}
+
+
+
+/* responsive  */
+
+
+@media only screen and (max-width: 375px) {
+    i#searchButtom {
+    display: none;
+}
+input#searchBox {
+    width: 100%;
+}
+ul.socialIcons.mt-2.d-flex.m-1 li{
+    padding:0px
+}
+}

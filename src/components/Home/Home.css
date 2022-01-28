@@ -1,0 +1,38 @@
+.saladRoute{
+    text-decoration:none
+}
+.onlyBorder{
+    border-bottom: 2px solid rgb(56, 185, 78);
+
+}
+#nestedRoute{
+    margin-top:30px;
+    color:white;
+    background:rgb(26, 25, 25);
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 10px;
+   
+}
+.activeStyle{
+    margin-top:30px;
+    color:rgb(247, 247, 247);
+    background:rgb(26, 25, 25);
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    text-decoration: none;
+    transition: all 0.7s;
+   
+
+}
+.verifyWarning{
+    background:rgb(10, 165, 87);
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    
+    margin: 0;
+    /* display: block; */
+    display: fixed;
+}
+

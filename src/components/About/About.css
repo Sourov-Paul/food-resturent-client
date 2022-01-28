@@ -1,0 +1,212 @@
+/* google font cdn */
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poppins:ital@0;1&family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poiret+One&family=Poppins:ital@0;1&family=Pushster&display=swap');
+
+
+
+.about{
+    background-image:url('https://i.ibb.co/RYBzqkB/ella-olsson-o-PBj-WBCc-AEo-unsplash.jpg');
+    background-size:100% 100%;
+    height:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.ofOnRestaurant.mt-3 {
+    width: 100%;
+}
+.col-sm-12.col-md-6.col-lg-6.backgroun-colorChange {
+    padding: 0px;
+}
+.main-order,.about-title {
+    background: white;
+    
+    text-align: center;
+}
+.col-6.backgroun-colorChange {
+    text-align:center;
+    width: 48%;
+    background:white;
+
+  
+}
+.col-6.backgroun-colorChange {
+    background: white !important ;
+  
+    text-align: center;
+}
+h3.about-text1,h3.about-text2 {
+    font-family: 'Moo Lah Lah', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Pushster', cursive;
+margin: 0;
+padding: 0;
+}
+h3.about-text1{
+    color: tomato;
+    font-size: 2rem;
+}
+h3.about-text2{
+    color: #963b02;
+    font-size: 2rem;
+}
+
+/* icons */
+
+i.fas.fa-map-marker-alt.location {
+    font-size: 20px;
+    color: #d74444;
+    transition:all 0.5s;
+    cursor:pointer
+}
+
+
+i.fas.fa-map-marker-alt.location:hover {
+
+    color: #f61616;
+}
+
+
+
+i.fas.fa-phone-alt.phone {
+    font-size: 20px;
+    color: tomato;
+      transition:all 0.5s;
+    cursor:pointer
+}
+i.fas.fa-phone-alt.phone:hover{
+     color: black
+}
+
+i.fas.fa-envelope.message {
+    font-size: 20px;
+    color: #d74444;
+      transition:all 0.5s;
+    cursor:pointer
+}
+i.fas.fa-envelope.message:hover{
+    color:#f61616;
+}
+.contactDetails.mt-2 {
+    border-bottom: 2px solid #e3c4c4;
+    
+    margin: 0 auto;
+}
+span.hours.mb-3, span.time,h3.phonrInfo.mt-3  {
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    color:#5e5757
+    }
+    span.number1,span.number2{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    color:#5e5757
+    }
+    span.times {
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    color:#5e5757
+    }
+    
+    /* button design */
+    button.orderPickup {
+        margin: 0 auto;
+    }
+.orderPickup {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #333;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    transition: 1s;
+  }
+  
+  .orderPickup::before, .orderPickup::after {
+    position: absolute;
+    background:tomato;
+    z-index: -1;
+    transition: 1s;
+    content: '';
+  }
+  
+  .orderPickup::before {
+    height: 50px;
+    width: 130px;
+  }
+  
+  .orderPickup::after {
+    width: 150px;
+    height: 30px;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  .orderPickup:hover::before {
+    width: 0px;
+    background: #fff;
+  }
+  
+  .orderPickup:hover::after {
+    height: 0px;
+    background: #fff;
+  }
+  
+  .orderPickup:hover {
+    background: #fff;
+  }
+
+  /* order details style */
+  h2.orderTitle {
+    color: tomato;
+    font-size: 2rem;
+    font-family: 'Moo Lah Lah', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Pushster', cursive;
+}
+
+span.titleOrder {
+    color:#963b02;
+    font-size:20px;
+    font-weight:bold;
+    margin:0px;
+    padding:0px;
+    
+}
+
+span.contactless, p.aas {
+    font-size:20px;
+   
+    color:#5e5757;
+    font-weight:bold
+}
+
+p.placeOrderPara {
+    font-family: 'Poppins', sans-serif;
+    padding:10px;
+    font-size:20px;
+     color:#5e5757;
+}
+.linkOrder{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+span.expended {
+    color:gray;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+

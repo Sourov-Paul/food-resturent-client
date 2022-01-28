@@ -1,0 +1,135 @@
+
+.mainRegesterDiv {
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);  
+    height: 100vh;
+}
+.MuiFormControl-root.MuiTextField-root.m-1.css-i44wyl {
+  width: 100%;
+}
+form.registerForm {
+    background: #fffdff;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 1px 0px 21px black;
+}
+
+input#mui-1,input#mui-2,input#mui-3,input#mui-4 {
+    color:   #f391c2;
+    font-weight: bold;
+    font-family: arial;
+    width:100%
+}
+
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.subMitButton.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    background: linear-gradient(to top left, #33ccff 0%, #f2f2f2 100%);  
+   font-weight: bold;
+   margin:5px;
+   width: 40%;
+}
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.subMitButton.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+     background: linear-gradient(to top left, #f2f2f2 0%, #33ccff 100%);
+     
+    }
+    form.MuiBox-root.css-13r4j3i {
+        width: 100%;
+    }
+    
+    form.registerForm.text-center.mt-5 {
+        width: 100%;
+    }
+    
+    .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,.MuiFormControl-root.MuiTextField-root.inputTag.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root ,.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root
+    {
+        width:100%
+    }
+    
+    /* loading */
+    .alreadyReg{
+        
+        color: rgb(255, 88, 88);
+        font-family:arial
+    }
+.main-loading {
+   
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Line */
+  .main-loading .ring {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -30px;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    border-top: 4px solid #24ecff;
+  }
+  /* Head of line */
+  .main-loading .ring::before{
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #24ecff;
+    box-shadow: 
+      0 0 0 5px #24ecff33,
+      0 0 0 10px #24ecff22,
+      0 0 0 20px #24ecff11,
+      0 0 40px #24ecff,
+      0 0 50px #24ecff;; 
+  }
+  /* Circle Position & Animation */
+  .main-loading .ring:nth-child(1){
+    animation: circle2 2s linear infinite;
+  }
+  .main-loading .ring:nth-child(2){
+    animation: circle1 2s linear infinite;
+  }
+  .main-loading .ring:nth-child(3){
+    position: absolute;
+    top: -66.66px;
+    animation: circle 2s linear infinite;
+  }
+  /* Loading Text */
+  .main-loading p{
+    overflow: hidden;
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    font-family: consolas;
+    bottom: -120px;
+    letter-spacing: 4px;
+  }
+  /* Animation */
+  @keyframes circle{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes circle1{
+    0%{
+      transform: rotate(120deg);
+    }
+    100%{
+      transform: rotate(480deg);
+    }
+  }
+  @keyframes circle2{
+    0%{
+      transform: rotate(240deg);
+    }
+    100%{
+      transform: rotate(600deg);
+    }
+  }

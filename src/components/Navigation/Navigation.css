@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rampart+One&family=Rock+3D&family=Twinkle+Star&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poppins&family=Rampart+One&family=Rock+3D&family=Twinkle+Star&display=swap');
+.navBarBackground{
+    background:  linear-gradient(to right, rgb(142 228 232), rgb(74 216 118))}
+span.navbar-toggler-icon {
+    color: #625454;
+ 
+    margin: 10px;
+    padding:0;
+}
+
+svg.bi.bi-bag:hover {
+    color:green;
+    transition:all 0.5s;
+}
+.foodLover1{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rampart One', cursive;
+font-family: 'Rock 3D', cursive;
+font-family: 'Twinkle Star', cursive;
+color: rgb(233 67 67);
+font-weight: bold;
+}
+.foodLover2{
+    font-family: 'Moo Lah Lah', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rampart One', cursive;
+font-family: 'Rock 3D', cursive;
+font-family: 'Twinkle Star', cursive;
+font-weight: bold;
+color:#6cba32;
+}
+a.navbar-brand {
+    color: #052348;
+    font-family: cursive;
+    font-weight: 550;
+}
+li.nav-item a {
+    color: rgb(26, 24, 24) !important;
+}

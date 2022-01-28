@@ -1,0 +1,54 @@
+
+header{
+	position: relative;
+}
+.title{
+	text-align: center;
+}
+.content{
+	margin: 0 auto;
+	max-width: 90%;
+	width: 720px;
+	height: 100%;
+}
+
+button{
+  border: 3px solid #FFF;
+  background: transparent;
+  color: #FFF;
+  font-size: 1rem;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  transition: all ease-in-out .3s;
+}
+button:hover{
+	background: #FFF;
+	color: #000;
+	opacity: .7;
+}
+.zoom{
+	overflow: hidden;
+   padding-bottom: 60%;
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/161/113/135/pizza-fast-food-vegetables-food-wallpaper-preview.jpg');
+	background-size: 100% 100%;
+	background-position: top center;	
+}
+.title{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+}
+.title h1{
+	text-align: center;
+	color: #FFF;
+}
+@media (max-width: 1024px) {
+	.content{text-align: justify;}
+	.zoom{
+		overflow: hidden;
+   	padding-bottom: 60%;
+	}
+}

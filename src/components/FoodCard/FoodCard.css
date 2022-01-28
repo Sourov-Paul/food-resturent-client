@@ -1,0 +1,33 @@
+img.img-fluid.setHeight {
+    max-height: 490px;
+    max-width: 327px;
+}
+
+.row.container.food-cardd {
+    background: white;
+    margin: 0 auto;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+.food-cardd{
+    transition: transform .2s;
+}
+.food-cardd:hover{
+    transform: scale(1.1);
+}
+p.descrip {
+    margin-bottom: 0px;
+}
+
+.main-Card.m-4.m-auto.container {
+    box-shadow: 0px 0px 9px 0px #0000004d;
+}
+
+
+div#carouselExampleControls {
+    margin-top: 39px;
+}
+.details {
+    margin: 15px 0px;
+}

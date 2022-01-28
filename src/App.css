@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poppins:ital@0;1&display=swap');
+
+*{
+  font-family: 'Moo Lah Lah', cursive;
+  font-family: 'Poppins', sans-serif;
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}

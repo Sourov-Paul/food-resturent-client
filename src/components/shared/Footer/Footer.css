@@ -1,0 +1,28 @@
+ul.footerLink.d-flex{
+    justify-content:space-around
+}
+.linkFooter{
+    list-style: none;
+    margin: 0.1rem;
+   
+    cursor: pointer;
+}
+.footerLinks{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footerLinks:hover{
+    color: rgb(166, 168, 168);
+}
+
+.col.footerImage {
+    display: grid;
+    justify-content: end;
+}
+i.fab.fa-facebook.facebookColor {
+    color: white;
+}
+
+i.fab.fa-linkedin.linkedinColor {
+    color: #049de7;
+}

@@ -1,0 +1,58 @@
+.slick-slider.slick-initialized {
+    text-align: center;
+}
+.saladSix{
+    max-height: 200px;
+    max-width: 200;
+}
+img.img-fluid.setHeight {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.responsiveLageDevice {
+    background: black;
+}
+
+
+a#nestedRoute {
+    font-size: 20px;
+    color: #d3a234;
+    font-family: arial;
+   
+    background: transparent;
+    padding-top: 10px;
+}
+img.card-img-top {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.container.homeLinkNetive {
+    background: #030303;
+    color:white
+}
+
+.mainSaladContainer.container.m-auto {
+    background: black;
+    color:white
+}
+
+
+.card.largeCard {
+    background: #050505;
+    border: none;
+    color:white
+}
+@media only screen and (max-width: 767px) {
+    .responsiveLageDevice{
+        display: none
+    }
+}
+@media only screen and (min-width: 768px) {
+        .smollDevice{
+        display: none;
+        
+    }
+}

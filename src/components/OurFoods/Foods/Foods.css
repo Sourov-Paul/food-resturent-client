@@ -1,0 +1,59 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poiret+One&family=Poppins:ital@0;1&family=Pushster&family=Roboto:ital@0;1&display=swap');
+
+i.fab.fa-youtube {
+    color: #ef1717;
+}
+a.recipes {
+    text-decoration: none;
+    color: #4b3e3e;
+    font-weight: bold;
+}
+
+span.countryName {
+    font-weight: bold;
+    color: #267b60;
+}
+p.card-text {
+    font-weight: 700;
+    color: gray;
+}
+.card-body{
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Pushster', cursive;
+font-family: 'Roboto', sans-serif;
+}
+.card-body:hover{
+    background:#0f0e0e;
+    color:white;
+   transition:all 0.5s;
+   cursor:pointer
+}
+.card-body:hover  a.recipes {
+    color: white;
+}
+.card-body:hover p.card-text{
+    color:rgb(236, 236, 236)
+}
+.titleColor  {
+color: #267b65;
+font-weight: bold;
+text-shadow: 0px 0px 3px #0aca71;
+}
+/* textSeeMore */
+.textSeeMore,.textLessMore{
+    font-size: 16px;
+    margin-left: 5px;
+    color: rgb(43, 124, 124);
+}
+
+/* image sizing */
+img.img-fluid.card-img {
+    width: 361px; 
+     /* height: 250px; */
+}
+img.m-auto.img-fluid.card-img {
+    border-radius: 50%;
+}
