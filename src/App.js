@@ -28,7 +28,7 @@ function App() {
    <Routes>
        <Route path='/' element={<Home />} >
              {/* Nesred Route */}
-       <Route path="popularSalads" element={<PopularSalad/>} />
+       <Route path="/" element={<PopularSalad/>} />
        <Route path='popularDrinks' element={ <Roll left><PopularDrinks/></Roll>} />
        <Route path="ourShef" element={<Zoom top><OurShefs/></Zoom>}/>
 

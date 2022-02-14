@@ -9,7 +9,7 @@ const CommingSoonFood = () => {
    
     const[commingFoods,setCommingFoods]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/addFoods')
+        fetch('https://stormy-gorge-03784.herokuapp.com/addFoods')
         .then(res=>res.json())
         .then(data=>setCommingFoods(data))
     },[]);
@@ -26,7 +26,7 @@ const CommingSoonFood = () => {
     const handleDeleteProduct=id=>{
        const proceed=window.confirm(alert2())
     if(proceed){
-        const url=`http://localhost:5000/addFoods/${id}`;
+        const url=`https://stormy-gorge-03784.herokuapp.com/addFoods/${id}`;
         fetch(url,{
             method:'DELETE'
         })

@@ -23,7 +23,6 @@ const Home = () => {
       
       
       }
-      <h2>73_5-1</h2>
       <Banner></Banner>
       <FoodCard></FoodCard>
       <div className=" homeLinkNetive">
@@ -32,7 +31,7 @@ const Home = () => {
           
             id="nestedRoute"
             className={({ isActive }) => (isActive ? "activeStyle" : "onlyBorder")}
-            to="popularSalads"
+            to="/"
           >
             Our Salads
           </NavLink>

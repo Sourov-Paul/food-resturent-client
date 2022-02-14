@@ -32,7 +32,7 @@ const [error,setError]=useState('')
 
 
          const newFods={name,title,foodImg,country,star,youtube}
-         fetch('http://localhost:5000/addFoods',{
+         fetch('https://stormy-gorge-03784.herokuapp.com/addFoods',{
             method:'POST',
             headers:{
                 'content-type':'application/json'
